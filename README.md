@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# **To-Do List Application**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple **To-Do List** project built with **React**. The purpose of this application is to allow users to manage their tasks, add new tasks, mark tasks as completed, edit tasks, and delete tasks.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **To-Do List Features**:
 
-### `npm start`
+This project allows users to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Add tasks**.
+2. **Mark tasks as completed**.
+3. **Filter tasks** between "Completed" and "Not Completed".
+4. **Edit tasks**.
+5. **Delete tasks**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### ✅ **Completed Tasks**:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] Add New Task functionality.
+- [x] Mark tasks as completed.
+- [x] Delete tasks functionality.
+- [x] Filter tasks by status (Completed / Not Completed).
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ⏳ **Not Completed Tasks**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [ ] Implement task priority (e.g., High, Medium, Low).
+- [ ] Add due dates for tasks.
+- [ ] Implement task editing functionality.
+- [ ] Style the application for better UI/UX.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## **How to Use the To-Do List Application**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Adding Tasks**: Users can easily add new tasks by entering task details into the input field and clicking "Add Task".
+- **Marking Tasks as Completed**: Once a task is finished, users can mark it as completed by clicking on the checkbox next to the task.
+- **Filtering Tasks**: Users can filter tasks by their status (Completed / Not Completed) to quickly view pending or finished tasks.
+- **Editing Tasks**: To edit an existing task, click on the task, make changes to the task name or details, and save it.
+- **Deleting Tasks**: Users can delete a task if it's no longer needed by clicking the "Delete" button next to the task.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## **Technologies Used**:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React.js**: For building the user interface.
+- **CSS/SCSS**: For styling the UI.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **How to Customize the To-Do List**:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Adding New Tasks**: Simply enter your task and click the "Add Task" button to create a new task in the list.
+2. **Marking Tasks as Completed**: When you finish a task, check the box next to it to mark it as completed.
+3. **Editing Tasks**: If you need to change a task, click on the task, edit the details, and save your changes.
+4. **Deleting Tasks**: To remove a task from the list, click the "Delete" button next to the task.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### **Contributing**:
 
-### Analyzing the Bundle Size
+Feel free to fork the project and submit pull requests. Please ensure that all code is well-tested before submission.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### **License**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the [MIT License](LICENSE).
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### **Additional Features**:
 
-### Deployment
+- The **To-Do List** can be enhanced to include **priorities** (e.g., high, medium, low), **due dates**, or other features like task categories.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
